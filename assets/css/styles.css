@@ -1,0 +1,46 @@
+/* assets/css/styles.css */
+
+/* Estilização básica do header */
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+}
+
+/* Logo ícone - haltere */
+.logo-icon { /* Corrigido para .logo-icon */
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/halter-icon.png'); /* Ajustado para o caminho correto */
+    background-size: cover;
+    margin-right: 10px;
+}
+
+/* Links do Menu */
+.nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+/* Botão de Login */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
